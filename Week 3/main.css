@@ -1,0 +1,55 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: coral;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: rgb(45, 5, 82);
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+div{
+    background-color: antiquewhite;
+    color: rgb(45, 5, 82);
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(73, 8, 134, 0.5)
+}
+
+img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+    border: 4px solid rebeccapurple 
+}
+
+/* these styles will  generally apply to mobile devices */
+@media ( max-width: 600px){
+    body{
+        padding: 10px;
+    }
+
+    div{
+        width: 100%;
+        margin: 5px;
+    }
+
+    h1{
+        font-size: 2em;
+    }
+    
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
